@@ -45,10 +45,9 @@ p{
 .logos{
   grid-column: 2/ span 2;
 }
-
 .eventone{
   width: 100%;
-  background: url("../Images/Sample/EventOne.png");
+  background: url("../images/Backgrounds/BG-img-01.png");
   background-size: cover;
   background-color: #cccccc;
 }
@@ -60,7 +59,7 @@ p{
   width: 60%;
 }
 .eventtwo{
-  background: url("../Images/Sample/EventTwo.png");
+  background: url("../images/Backgrounds/BG-img-02.png");
   background-size: cover;
   background-color: #cccccc;
 }
