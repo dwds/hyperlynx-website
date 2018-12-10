@@ -5,15 +5,18 @@
     <title>Projects</title>
   </head>
   <body>
+    <div id="skip">
+      <a href="">Skip to Content</a>
+    </div>
       <img src="images/logo.png" alt="Hyperlynx">
-        <nav>
-        <ul>
-          <li><a href="Index.html">Home</a></li>
-          <li><a href="About.html">About</a></li>
-          <li><a href="Projects.html">Projects</a></li>
-          <li><a href="Getinvolved.html">Get.Involved</a></li>
-          <li><a href="https://hyperlynxlub.org/blog/.php">Blog</a></li>
-        </ul>
+        <nav role="navigation">
+          <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="Getinvolved.html">Get.Involved</a></li>
+            <li><a href="https://hyperlynxlub.org/blog/.php">Blog</a></li>
+          </ul>
         </nav>
     <h1>Events</h1>
       <p>Some motivational text line</p>
@@ -46,10 +49,19 @@
       <p>Some future prokect</p>
     <h3>Have an idea?</h3>
       <p>Tell us</p> <!--This button is for mobile version-->
-      <p>Name:</p>
-      <p>Email</p>
-      <p>Space for text</p>
-      <p>Submit button</p>
+      <form action="">
+      	<fieldset>
+      		<p>
+      			<label for="name">Name:</label>
+      			<input type="text" id="name" name="name" />
+      		</p>
+      		<p>
+      			<label for="address">Email:</label>
+      			<input type="text" id="address" name="address" />
+      		</p>
+        </fieldset>
+        <p><input type="submit" value="Submit" class="submit" /></p>
+      </form>
   </body>
   <footer>
     <a href="https://www.facebook.com/lubhyperlynx/">

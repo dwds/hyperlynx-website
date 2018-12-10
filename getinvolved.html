@@ -5,8 +5,11 @@
     <title>Get-involved</title>
   </head>
   <body>
+    <div id="skip">
+      <a href="">Skip to Content</a>
+    </div>
       <img src="images/logo.png" alt="Hyperlynx">
-        <nav>
+        <nav role="navigation">
         <ul>
           <li><a href="Index.html">Home</a></li>
           <li><a href="About.html">About</a></li>
@@ -29,13 +32,22 @@
         <img src="images/Slackimage.jpg" alt="Slack image">
 
     <h2>Have an idea?</h2>
-      <p>Name:</p>
-      <p>Email:</p>
-      <p>Space for text</p>
-      <p>Submit</p>
+<form action="">
+	<fieldset>
+		<p>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" />
+		</p>
+		<p>
+			<label for="address">Email:</label>
+			<input type="text" id="address" name="address" />
+		</p>
+  </fieldset>
+  <p><input type="submit" value="Submit" class="submit" /></p>
+</form>
 
     <h2>Check out our upcoming events!</h2>
-      <p>Calendar</p>
+      <button role="link">Calendar</button>
 
   </body>
   <footer>
