@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  margin: 0 auto;
 }
 ul{
   list-style: none;
@@ -16,6 +17,14 @@ li a{
   background-size: cover;
   width: auto;
   padding: 85px;
+}
+.Profile:nth-child(odd) img{
+  float: right;
+}
+.Profile:nth-child(even) img{
+  float: left;
+}
+.Profile p{
 }
 .proimage{
   border-radius: 50%;
