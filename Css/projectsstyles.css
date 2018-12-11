@@ -5,6 +5,9 @@
 body{
   text-align: center;
 }
+img{
+  width: 100%;
+}
 .Events{
   background-color: pink;
 }
@@ -32,19 +35,57 @@ body{
 }
 .Past img{
   width: 50%;
-  float: right;
 }
 .textleft{
   float: left;
   width: 40%;
 }
 .image{
-  width: 60%;
   padding: 20px;
 }
 .Future{
   background-color: green;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 footer{
   background-color: red;
+}
+
+@media only screen and (min-width: 900px) {
+  body{
+    background-color: pink;
+  }
+  .Current h2{
+    grid-column: 1/ span 1;
+    grid-row: 1/ span 1;
+  }
+  .Current p{
+    grid-column: 1/ span 2;
+  }
+  .Current img{
+    grid-column: 1/ span 5;
+    grid-row: 1/ span 3;
+  }
+  .Past{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .PastEvent{
+    width: 33.333333%;
+  }
+  .PastEvent p{
+    order: 1;
+  }
+  .image{
+    float: none;
+  }
+  .textleft{
+    float: none;
+  }
+
+  .Past h2{
+    background-color: black;
+    color: white;
+  }
 }
