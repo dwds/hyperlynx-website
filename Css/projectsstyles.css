@@ -48,6 +48,9 @@ img{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+img.socialmediaicons{
+  width: 8%;
+}
 footer{
   background-color: red;
 }

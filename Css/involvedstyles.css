@@ -36,6 +36,7 @@ h2{
   width: 100%;
   grid-area: c;
 }
+
 .Idea{
   text-align: center;
   background-color: white;
@@ -67,6 +68,9 @@ textarea {
   border: 1px solid black;
   width:150px;
   margin: auto;
+}
+img.socialmediaicons{
+  width: 8%;
 }
 
 @media only screen and (min-width: 900px){
