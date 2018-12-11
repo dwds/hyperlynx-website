@@ -13,7 +13,7 @@ li a {
   text-decoration: none;
 }
 
-.About {
+.about {
   text-align: center;
   color: white;
   background-image: url("../Images/Backgrounds/BG-img-03.png");
@@ -22,20 +22,20 @@ li a {
   padding: 85px;
 }
 
-.Profile:nth-child(odd) img {
+.profile:nth-child(odd) img {
   float: right;
 }
 
-.Profile:nth-child(even) img{
+.profile:nth-child(even) img{
   float: left;
 }
 
-.proimage {
+.pro-image {
   border-radius: 50%;
   width: auto;
 }
 
-.Description {
+.description {
   background-color: green;
   text-align: center;
   padding: 50px;
@@ -54,14 +54,14 @@ img {
     text-align: center;
   }
 
-  .Profiles {
+  .profiles {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .Profile{
+  .profile{
     text-align: center;
     width: 33.333333%;
   }

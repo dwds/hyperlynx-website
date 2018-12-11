@@ -9,7 +9,7 @@ body {
   color: white;
 }
 
-.mobilehead {
+.mobile-head {
   background-image: url("../Images/HomeImage.png");
   background-size: cover;
   display: grid;
@@ -58,24 +58,24 @@ p {
   grid-column: 2 / span 2;
 }
 
-.informationsection {
+.information-section {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.eventone {
+.event-one {
   width: 100%;
   background: url("../images/Backgrounds/BG-img-01.png");
   background-size: cover;
   background-color: #cccccc;
 }
 
-.textleft {
+.text-left {
   float: left;
   width: 40%;
 }
 
-.textleft h3 {
+.text-left h3 {
   padding-top: 20px;
 }
 
@@ -83,7 +83,7 @@ p {
   padding-left: 20px;
 }
 
-.textleft h3,
+.text-left h3,
 .description {
   padding-bottom: 20px;
 }
@@ -93,7 +93,7 @@ p {
   padding: 20px;
 }
 
-.eventtwo {
+.event-two {
   background: url("../images/Backgrounds/BG-img-02.png");
   background-size: cover;
   background-color: #cccccc;

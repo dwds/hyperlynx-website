@@ -6,7 +6,7 @@ body {
   background-color: yellow;
 }
 
-.Involved {
+.involved {
   background-image: url("../Images/Backgrounds/BG-img-05.png");
   text-align: center;
   color: white;
@@ -19,7 +19,7 @@ h2 {
   text-align: center;
 }
 
-.Join {
+.join {
   background-color: skyblue;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -43,7 +43,7 @@ h2 {
   grid-area: c;
 }
 
-.Idea {
+.idea {
   text-align: center;
   background-color: white;
 }
@@ -89,13 +89,13 @@ textarea {
     padding-left: 70px;
   }
 
-  .Idea {
+  .idea {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
   }
 
-  .Idea p {
+  .idea p {
     grid-column: 2 / span 1;
     grid-row: 2 / span 1;
   }

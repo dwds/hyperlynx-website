@@ -11,42 +11,42 @@ img {
   width: 100%;
 }
 
-.Events {
+.events {
   background-color: pink;
 }
 
-.Current {
+.current {
   background-color: skyblue;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-row: auto;
 }
 
-.Current h2 {
+.current h2 {
   grid-column: 1 / span 5;
   margin-bottom: 20px;
 }
 
-.Current img {
+.current img {
   width: 100%;
   grid-column: 2 / span 5;
   grid-row: 2 / span 1;
 }
 
-.Current p {
+.current p {
   grid-column: 1 / span 4;
   grid-row: 2 / span 1;
 }
 
-.Past {
+.past {
   background-color: yellow;
 }
 
-.Past img {
+.past img {
   width: 50%;
 }
 
-.textleft {
+.text-left {
   float: left;
   width: 40%;
 }
@@ -55,7 +55,7 @@ img {
   padding: 20px;
 }
 
-.Future {
+.future {
   background-color: green;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -70,30 +70,30 @@ footer {
     background-color: pink;
   }
 
-  .Current h2 {
+  .current h2 {
     grid-column: 1/ span 1;
     grid-row: 1/ span 1;
   }
 
-  .Current p {
+  .current p {
     grid-column: 1/ span 2;
   }
 
-  .Current img {
+  .current img {
     grid-column: 1/ span 5;
     grid-row: 1/ span 3;
   }
 
-  .Past {
+  .past {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .PastEvent {
+  .past-event {
     width: 33.333333%;
   }
 
-  .PastEvent p {
+  .past-event p {
     order: 1;
   }
 
@@ -101,11 +101,11 @@ footer {
     float: none;
   }
 
-  .textleft {
+  .text-left {
     float: none;
   }
 
-  .Past h2 {
+  .past h2 {
     background-color: black;
     color: white;
   }
