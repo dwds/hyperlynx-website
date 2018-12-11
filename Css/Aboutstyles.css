@@ -1,16 +1,19 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0 auto;
 }
-ul{
+
+ul {
   list-style: none;
   color: white;
 }
-li a{
+
+li a {
   color: white;
   text-decoration: none;
 }
-.About{
+
+.About {
   text-align: center;
   color: white;
   background-image: url("../Images/Backgrounds/BG-img-03.png");
@@ -18,35 +21,40 @@ li a{
   width: auto;
   padding: 85px;
 }
-.Profile:nth-child(odd) img{
+
+.Profile:nth-child(odd) img {
   float: right;
 }
+
 .Profile:nth-child(even) img{
   float: left;
 }
-.Profile p{
-}
-.proimage{
+
+.proimage {
   border-radius: 50%;
   width: auto;
 }
-.Description{
+
+.Description {
   background-color: green;
   text-align: center;
   padding: 50px;
 }
-img{
+
+img {
   width: 100%;
 }
 
 @media only screen and (min-width: 900px) {
-  .header{
+  .header {
     background-image: url("../Images/Backgrounds/BG-img-03.png");
   }
-  h2{
+
+  h2 {
     text-align: center;
   }
-  .Profiles{
+
+  .Profiles {
     margin: 0;
     display: flex;
     flex-wrap: wrap;

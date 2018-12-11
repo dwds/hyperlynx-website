@@ -1,11 +1,12 @@
-w*{
+* {
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: yellow;
 }
-.Involved{
+
+.Involved {
   background-image: url("../Images/Backgrounds/BG-img-05.png");
   text-align: center;
   color: white;
@@ -13,10 +14,12 @@ body{
   width: auto;
   padding: 90px;
 }
-h2{
+
+h2 {
   text-align: center;
 }
-.Join{
+
+.Join {
   background-color: skyblue;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -26,20 +29,25 @@ h2{
   "a c c ."
   "b c c .";
 }
-.address{
+
+.address {
   grid-area: a;
 }
-.info{
+
+.info {
   grid-area: b;
 }
-.pic{
+
+.pic {
   width: 100%;
   grid-area: c;
 }
-.Idea{
+
+.Idea {
   text-align: center;
   background-color: white;
 }
+
 input[type=text] {
   text-align: left;
   width: 50%;
@@ -48,6 +56,7 @@ input[type=text] {
   box-sizing: border-box;
   border: none;
 }
+
 textarea {
   text-align: center;
   margin: 0 auto;
@@ -62,7 +71,8 @@ textarea {
   font-size: 16px;
   resize: none;
 }
-.link{
+
+.link {
   text-align: center;
   border: 1px solid black;
   width:150px;
@@ -70,21 +80,23 @@ textarea {
 }
 
 @media only screen and (min-width: 900px){
-  body{
+  body {
     font-family: sans-serif;
   }
 
-.info, .address{
-  padding-left: 70px;
-}
+  .info,
+  .address {
+    padding-left: 70px;
+  }
 
-.Idea{
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
-}
-.Idea p{
-  grid-column: 2 /span 1;
-  grid-row: 2 /span 1;
-}
+  .Idea {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .Idea p {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+  }
 }
