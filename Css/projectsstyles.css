@@ -5,9 +5,6 @@
 body{
   text-align: center;
 }
-img{
-  width: 100%;
-}
 .Events{
   background-color: pink;
 }
@@ -22,6 +19,7 @@ img{
   margin-bottom: 20px;
 }
 .Current img{
+  width: 100%;
   grid-column: 2/ span 5;
   grid-row: 2/ span 1;
 }
@@ -31,6 +29,18 @@ img{
 }
 .Past{
   background-color: yellow;
+}
+.Past img{
+  width: 50%;
+  float: right;
+}
+.textleft{
+  float: left;
+  width: 40%;
+}
+.image{
+  width: 60%;
+  padding: 20px;
 }
 .Future{
   background-color: green;
