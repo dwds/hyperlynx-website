@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+body{
+  text-align: center;
+}
+.Events{
+  background-color: pink;
+}
+.Current{
+  background-color: skyblue;
+}
+.Past{
+  background-color: yellow;
+}
+.Future{
+  background-color: green;
+}
+footer{
+  background-color: red;
+}

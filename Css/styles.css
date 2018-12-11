@@ -31,6 +31,9 @@ body{
   grid-column: 2/ span 4;
   grid-row: 3/ span 1;
 }
+h1{
+  display: none;
+}
 nav{
   grid-column: 1/ span 6;
   grid-row: 5/ span 1;
@@ -45,6 +48,10 @@ p{
 .logos{
   grid-column: 2/ span 2;
 }
+.informationsection{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .eventone{
   width: 100%;
   background: url("../images/Backgrounds/BG-img-01.png");
@@ -55,8 +62,18 @@ p{
   float: left;
   width: 40%;
 }
+.textleft h3{
+  padding-top: 20px;
+}
+.description{
+  padding-left: 20px;
+}
+.textleft h3, .description{
+  padding-bottom: 20px;
+}
 .image{
   width: 60%;
+  padding: 20px;
 }
 .eventtwo{
   background: url("../images/Backgrounds/BG-img-02.png");

@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+  color: white;
+}
+li a{
+  color: white;
+  text-decoration: none;
+}
+.About{
+  text-align: center;
+  color: white;
+  background-image: url("../Images/Backgrounds/BG-img-03.png");
+  background-size: cover;
+  width: auto;
+  padding: 85px;
+}
+.proimage{
+  border-radius: 50%;
+  width: auto;
+}
+.Description{
+  background-color: green;
+  text-align: center;
+  padding: 50px;
+}
+img{
+  width: 100%;
+}
+
+@media only screen and (min-width: 900px) {
+  .header{
+    background-image: url("../Images/Backgrounds/BG-img-03.png");
+  }
+  h2{
+    text-align: center;
+  }
+  .Profiles{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Profile{
+    text-align: center;
+    width: 33.333333%;
+  }
+}
