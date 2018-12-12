@@ -9,7 +9,12 @@
   color: white;
   background-size: cover;
   width: auto;
-  padding: 90px;
+}
+
+.Involved p {
+  margin: 0;
+  padding: 25px;
+  width: 100%;
 }
 
 h2 {
@@ -36,7 +41,10 @@ h2 {
 }
 
 .pic {
+  height: 100%;
   width: 100%;
+  display: block;
+  padding: 20px;
   grid-area: c;
 }
 
@@ -77,13 +85,14 @@ textarea {
 }
 
 #lynx {
-  max-width: 500px;
+  max-width: 50%;
   width: 100%;
   height: 100%;
   display: block;
 }
 
 #logo {
+  max-width: 50%;
   width: 100%;
   display: block;
 }
