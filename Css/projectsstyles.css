@@ -42,17 +42,21 @@ img {
   background-color: yellow;
 }
 
-.past-projects img {
-  width: 50%;
+.past-project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content 1fr;
 }
 
-.text-left {
-  float: left;
-  width: 40%;
+.past-project img {
+  grid-row: span 2;
+  order: -1;
 }
 
-.image {
-  padding: 20px;
+.past-project:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .future-projects {
@@ -89,20 +93,22 @@ footer {
     flex-wrap: wrap;
   }
 
+  .past-projects h2 {
+    width: 100%;
+  }
+
   .past-project {
     width: 33.333333%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .past-project h3 {
+    order: -2;
   }
 
   .past-project p {
     order: 1;
-  }
-
-  .image {
-    float: none;
-  }
-
-  .text-left {
-    float: none;
   }
 
   .past-projects h2 {
