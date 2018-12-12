@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/projectsstyles.css">
   </head>
   <body>
+    <div class="header">
       <img src="images/Logos/Lynx.png" alt="Hyperlynx">
       <img src="images/Logos/Logo.png" alt="">
         <nav>
@@ -22,7 +23,9 @@
             <p>Some motivational text line</p>
             <p>WE AIM TO EDUCATE THE LINDENWOOD COMMUNITY ON THE LATEST TECHNOLOGY TRENDS AND SKILLS LOREM IPSUM IS SIMPLY DUMMY TEXT OF THE PRINTING AND TYPESETTING INDUSTRY. LOREM IPSUM HAS BEEN THE INDUSTRY'S STANDARD DUMMY TEXT EVER SINCE THE IT TO MAKE A TYPE SPECIMEN BOOK</p>
         </div>
+      </div>
 
+      <div class="GridContainer">
         <div class="Current">
           <img src="images/Backgrounds/BG-img-04.png" alt="CurrentProject">
           <h2>Current Projects</h2>
@@ -30,7 +33,7 @@
             Read more</p>
         </div>
 <!--The read more link is on desktop and tablet but not on mobile-->
-    <h2>Past projects</h2>
+        <h2 class="item">Past projects</h2>
         <div class="Past">
           <div class="PastEvent">
             <div class="textleft">
@@ -73,12 +76,14 @@
               <p>Some future prokect</p>
               <p>Some future prokect</p>
             <h3>Have an idea?</h3>
-              <p>Tell us</p> <!--This button is for mobile version-->
-              <p>Name:</p>
-              <p>Email</p>
-              <p>Space for text</p>
-              <p>Submit button</p>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Email:</label>
+            <input type="text" id="email" name="email"><br>
+            <textarea>Some text...</textarea><br>
+              <input type="submit" value="Submit">
           </div>
+        </div>
   </body>
   <footer>
     <a href="https://www.facebook.com/lubhyperlynx/">
