@@ -1,10 +1,12 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0 auto;
 }
-body{
+
+body {
   text-align: center;
 }
+
 .header{
   background-image: url(../Images/Website-Images/mainevents/emporium.jpg);
   background-size: cover;
@@ -18,62 +20,106 @@ img{
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-row: auto;
 }
-.Current h2{
-  grid-column: 1/ span 5;
+
+.current h2 {
+  grid-column: 1 / span 5;
   margin-bottom: 20px;
 }
-.Current img{
+
+.current img {
   width: 100%;
-  grid-column: 2/ span 5;
-  grid-row: 2/ span 1;
+  grid-column: 2 / span 5;
+  grid-row: 2 / span 1;
 }
-.Current p{
-  grid-column: 1/ span 4;
-  grid-row: 2/ span 1;
+
+.current p {
+  grid-column: 1 / span 4;
+  grid-row: 2 / span 1;
 }
-.Past img{
-  width: 50%;
+
+.past-projects {
+  background-color: yellow;
 }
-.textleft{
-  float: left;
-  width: 40%;
+
+.past-project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content 1fr;
 }
-.image{
-  padding: 20px;
+
+.past-project img {
+  grid-row: span 2;
+  order: -1;
 }
+
+.past-project:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 footer{
   background-color: black;
 }
 
 @media only screen and (min-width: 900px) {
-  .Current h2{
+  .future-projects {
+    background-color: green;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+footer {
+  background-color: red;
+}
+  body {
+    background-color: pink;
+  }
+
+  .current h2 {
     grid-column: 1/ span 1;
     grid-row: 1/ span 1;
   }
-  .Current p{
+
+  .current p {
     grid-column: 1/ span 2;
   }
-  .Current img{
+
+  .current img {
     grid-column: 1/ span 5;
     grid-row: 1/ span 3;
   }
-  .Past{
+
+  .past-projects {
     display: flex;
     flex-wrap: wrap;
   }
-  .PastEvent{
+
+  .past-project {
     background-image: url("../Images/Backgrounds/BG-img-02.png");
     background-size: cover;
     width: 33.333333%;
   }
-  .image{
-    float: none;
-  }
-  .textleft{
-    float: none;
+
+  .past-projects h2 {
+    width: 100%;
   }
 
-  .Past h2{
+  .past-project {
+    width: 33.333333%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .past-project h3 {
+    order: -2;
+  }
+
+  .past-project p {
+    order: 1;
+  }
+
+  .past-projects h2 {
     background-color: black;
     color: white;
   }
