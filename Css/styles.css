@@ -1,13 +1,15 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0 auto;
   text-align: center;
 }
-body{
+
+body {
   background-color: black;
   color: white;
 }
-.mobilehead{
+
+.mobilehead {
   background-image: url("../Images/HomeImage.png");
   background-size: cover;
   display: grid;
@@ -15,71 +17,95 @@ body{
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 
-#home{
+#home {
   width: 100%;
   height: 100%;
+  display: block;
   grid-column: 1/ span 6;
   grid-row: 1/ span 6;
 }
-#lynx{
-  width: auto;
+
+#lynx {
+  max-width: 500px;
+  width: 100%;
+  height: 100%;
+  display: block;
   grid-column: 3/ span 2;
   grid-row: 1/ span 2;
 }
-#logo{
+
+#logo {
   width: 100%;
+  display: block;
   grid-column: 2/ span 4;
   grid-row: 3/ span 1;
 }
-h1{
+
+h1 {
   display: none;
 }
-nav{
+
+nav {
   grid-column: 1/ span 6;
   grid-row: 5/ span 1;
 }
-ul{
+
+ul {
   display: flex;
 }
-p{
+
+p {
   grid-column: 3/ span 2;
   grid-row: 4/ span 1;
 }
-.logos{
+
+.logos {
   grid-column: 2/ span 2;
 }
-.informationsection{
+
+.informationsection {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.eventone{
+
+.eventone {
   width: 100%;
   background: url("../images/Backgrounds/BG-img-01.png");
   background-size: cover;
   background-color: #cccccc;
 }
-.textleft{
+
+.textleft {
   float: left;
   width: 40%;
 }
-.textleft h3{
+
+.textleft h3 {
   padding-top: 20px;
 }
-.description{
+
+.description {
   padding-left: 20px;
 }
-.textleft h3, .description{
+
+.textleft h3,
+.description {
   padding-bottom: 20px;
 }
-.image{
-  width: 60%;
+
+.eventimg {
+  max-width: 50%;
+  display: block;
   padding: 20px;
+  height: auto;
 }
-.eventtwo{
+
+.eventtwo {
   background: url("../images/Backgrounds/BG-img-02.png");
   background-size: cover;
   background-color: #cccccc;
 }
-footer{
+
+footer {
   background-color: black;
 }
