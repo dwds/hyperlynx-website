@@ -1,11 +1,9 @@
-w*{
+* {
   box-sizing: border-box;
+  margin: 0;
 }
 
-body{
-  background-color: yellow;
-}
-.Involved{
+.Involved {
   background-image: url("../Images/Backgrounds/BG-img-05.png");
   text-align: center;
   color: white;
@@ -13,33 +11,40 @@ body{
   width: auto;
   padding: 90px;
 }
-h2{
+
+h2 {
   text-align: center;
 }
-.Join{
+
+.Join {
   background-color: skyblue;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
-  "a c c ."
-  "a c c ."
-  "b c c .";
+    "a c c ."
+    "a c c ."
+    "b c c .";
 }
-.address{
+
+.address {
   grid-area: a;
 }
-.info{
+
+.info {
   grid-area: b;
 }
-.pic{
+
+.pic {
   width: 100%;
   grid-area: c;
 }
-.Idea{
+
+.Idea {
   text-align: center;
   background-color: white;
 }
+
 input[type=text] {
   text-align: left;
   width: 50%;
@@ -48,6 +53,7 @@ input[type=text] {
   box-sizing: border-box;
   border: none;
 }
+
 textarea {
   text-align: center;
   margin: 0 auto;
@@ -62,29 +68,44 @@ textarea {
   font-size: 16px;
   resize: none;
 }
-.link{
+
+.link {
   text-align: center;
   border: 1px solid black;
-  width:150px;
+  width: 150px;
   margin: auto;
 }
 
-@media only screen and (min-width: 900px){
-  body{
+#lynx {
+  max-width: 500px;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+#logo {
+  width: 100%;
+  display: block;
+}
+
+@media only screen and (min-width: 900px) {
+  body {
     font-family: sans-serif;
   }
 
-.info, .address{
-  padding-left: 70px;
-}
+  .info,
+  .address {
+    padding-left: 70px;
+  }
 
-.Idea{
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
-}
-.Idea p{
-  grid-column: 2 /span 1;
-  grid-row: 2 /span 1;
-}
+  .Idea {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .Idea p {
+    grid-column: 2 /span 1;
+    grid-row: 2 /span 1;
+  }
 }
