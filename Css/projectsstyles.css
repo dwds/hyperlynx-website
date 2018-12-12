@@ -7,16 +7,15 @@ body {
   text-align: center;
 }
 
-img {
-  width: 100%;
+.header{
+  background-image: url(../Images/Website-Images/mainevents/emporium.jpg);
+  background-size: cover;
+  padding-bottom: 40px;
 }
-
-.events {
-  background-color: pink;
+img{
+  width: 50%;
 }
-
-.current {
-  background-color: skyblue;
+.Current{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-row: auto;
@@ -59,17 +58,20 @@ img {
   clear: both;
 }
 
-.future-projects {
-  background-color: green;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+footer{
+  background-color: black;
 }
+
+@media only screen and (min-width: 900px) {
+  .future-projects {
+    background-color: green;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
 footer {
   background-color: red;
 }
-
-@media only screen and (min-width: 900px) {
   body {
     background-color: pink;
   }
@@ -93,6 +95,12 @@ footer {
     flex-wrap: wrap;
   }
 
+  .past-project {
+    background-image: url("../Images/Backgrounds/BG-img-02.png");
+    background-size: cover;
+    width: 33.333333%;
+  }
+
   .past-projects h2 {
     width: 100%;
   }
@@ -114,5 +122,35 @@ footer {
   .past-projects h2 {
     background-color: black;
     color: white;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .GridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 500px;
+    grid-template-areas:
+    "a a b"
+    "c c b"
+    "d d b";
+  }
+  .Current{
+    grid-area: a;
+  }
+  .Future{
+    grid-area: b;
+  }
+  .Future{
+    display: grid;
+    grid-template-columns: 
+  }
+  .item{
+    font-size: 60px;
+    grid-area: c;
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+  .Past{
+    grid-area: d;
   }
 }
