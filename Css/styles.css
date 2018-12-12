@@ -124,7 +124,7 @@ font-size: 11px;
   height: 100px;
   margin-left: -40px;
   position: absolute;
-  top: 20px;
+  top: 150px;
   color: white;
   text-align: center;
   line-height: 80px;
@@ -142,8 +142,8 @@ font-size: 11px;
 
 .hamburger {
   margin-top: 20px;
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
   transition: -webkit-transform 200ms;
   transition: transform 200ms;
   transition: transform 200ms, -webkit-transform 200ms;
