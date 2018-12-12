@@ -12,10 +12,12 @@ body {
   background-size: cover;
   padding-bottom: 40px;
 }
+
 img{
   width: 50%;
 }
-.Current{
+
+.current{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-row: auto;
@@ -124,8 +126,9 @@ footer {
     color: white;
   }
 }
+
 @media only screen and (min-width: 1500px) {
-  .GridContainer{
+  .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 500px;
     grid-template-areas:
@@ -133,24 +136,25 @@ footer {
     "c c b"
     "d d b";
   }
-  .Current{
+
+  .current{
     grid-area: a;
   }
-  .Future{
+
+  .future-projects {
+    display: grid;
     grid-area: b;
   }
-  .Future{
-    display: grid;
-    grid-template-columns: 
-  }
-  .item{
+
+  .item {
     font-size: 60px;
     grid-area: c;
     width: 100%;
     background-color: black;
     color: white;
   }
-  .Past{
+
+  .past-projects {
     grid-area: d;
   }
 }
