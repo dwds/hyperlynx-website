@@ -38,11 +38,11 @@ img {
   grid-row: 2 / span 1;
 }
 
-.past {
+.past-projects {
   background-color: yellow;
 }
 
-.past img {
+.past-projects img {
   width: 50%;
 }
 
@@ -55,7 +55,7 @@ img {
   padding: 20px;
 }
 
-.future {
+.future-projects {
   background-color: green;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -84,16 +84,16 @@ footer {
     grid-row: 1/ span 3;
   }
 
-  .past {
+  .past-projects {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .past-event {
+  .past-project {
     width: 33.333333%;
   }
 
-  .past-event p {
+  .past-project p {
     order: 1;
   }
 
@@ -105,7 +105,7 @@ footer {
     float: none;
   }
 
-  .past h2 {
+  .past-projects h2 {
     background-color: black;
     color: white;
   }
