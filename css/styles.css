@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.mobile-head {
+  background-image: url("../Images/HomeImage.png");
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#home {
+  width: 100%;
+  height: 100%;
+  grid-column: 1 / span 6;
+  grid-row: 1 / span 6;
+}
+
+#lynx {
+  width: auto;
+  grid-column: 3 / span 2;
+  grid-row: 1 / span 2;
+}
+
+#logo {
+  width: 100%;
+  grid-column: 2 / span 4;
+  grid-row: 3 / span 1;
+}
+
+h1 {
+  display: none;
+}
+
+nav {
+  grid-column: 1 / span 6;
+  grid-row: 5 / span 1;
+}
+
+ul {
+  display: flex;
+}
+
+p {
+  grid-column: 3 / span 2;
+  grid-row: 4 / span 1;
+}
+
+.logos {
+  grid-column: 2 / span 2;
+}
+
+.information-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.event-one {
+  width: 100%;
+  background: url("../images/Backgrounds/BG-img-01.png");
+  background-size: cover;
+  background-color: #cccccc;
+}
+
+.text-left {
+  float: left;
+  width: 40%;
+}
+
+.text-left h3 {
+  padding-top: 20px;
+}
+
+.description {
+  padding-left: 20px;
+}
+
+.text-left h3,
+.description {
+  padding-bottom: 20px;
+}
+
+.image {
+  width: 60%;
+  padding: 20px;
+}
+
+.event-two {
+  background: url("../images/Backgrounds/BG-img-02.png");
+  background-size: cover;
+  background-color: #cccccc;
+}
+
+footer {
+  background-color: black;
+}
