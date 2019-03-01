@@ -16,7 +16,7 @@ li a {
 .about {
   text-align: center;
   color: white;
-  background-image: url("../Images/Backgrounds/BG-img-03.png");
+  background-image: url("../images/backgrounds/bg-img-03.png");
   background-size: cover;
   width: auto;
   padding: 85px;
@@ -45,9 +45,13 @@ img {
   width: 100%;
 }
 
+img.social-media-icons{
+  width: 8%;
+}
+
 @media only screen and (min-width: 900px) {
   .header {
-    background-image: url("../Images/Backgrounds/BG-img-03.png");
+    background-image: url("../images/backgrounds/bg-img-03.png");
   }
 
   h2 {

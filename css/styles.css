@@ -10,7 +10,7 @@ body {
 }
 
 .mobile-head {
-  background-image: url("../Images/HomeImage.png");
+  background-image: url("../images/home-image.png");
   background-size: cover;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -65,7 +65,7 @@ p {
 
 .event-one {
   width: 100%;
-  background: url("../images/Backgrounds/BG-img-01.png");
+  background: url("../images/backgrounds/bg-img-01.png");
   background-size: cover;
   background-color: #cccccc;
 }
@@ -94,7 +94,7 @@ p {
 }
 
 .event-two {
-  background: url("../images/Backgrounds/BG-img-02.png");
+  background: url("../images/backgrounds/bg-img-02.png");
   background-size: cover;
   background-color: #cccccc;
 }

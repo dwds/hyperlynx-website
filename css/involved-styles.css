@@ -7,7 +7,7 @@ body {
 }
 
 .involved {
-  background-image: url("../Images/Backgrounds/BG-img-05.png");
+  background-image: url("../images/backgrounds/bg-img-05.png");
   text-align: center;
   color: white;
   background-size: cover;
@@ -77,6 +77,9 @@ textarea {
   border: 1px solid black;
   width:150px;
   margin: auto;
+}
+img.socialmediaicons{
+  width: 8%;
 }
 
 @media only screen and (min-width: 900px){
