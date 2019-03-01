@@ -8,7 +8,7 @@ body {
 }
 
 .header{
-  background-image: url(../Images/Website-Images/mainevents/emporium.jpg);
+  background-image: url(../images/website-images/main-events/emporium.jpg);
   background-size: cover;
   padding-bottom: 40px;
 }
@@ -98,7 +98,7 @@ footer {
   }
 
   .past-project {
-    background-image: url("../Images/Backgrounds/BG-img-02.png");
+    background-image: url("../images/backgrounds/bg-img-02.png");
     background-size: cover;
     width: 33.333333%;
   }
