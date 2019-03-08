@@ -8,10 +8,14 @@
   <meta name="description=" content="Hyperlynx is an interactive media and web design club based in Belleville Illinois.">
 </head>
 <body>
+  <!--Skip to Content button-->
+    <div id="skip">
+    <a href="maincontent">Skip to Content</a>
+    </div>
   <img src="images/logos/lynx.png" alt="Hyperlynx">
-  <img src="images/logos/logo.png" alt="">
+  <img src="images/logos/logo.png" alt="Hyperlynx">
 
-  <nav>
+  <nav role="navigation">
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
@@ -21,6 +25,7 @@
     </ul>
   </nav>
 
+  <main class="maincontent">
         <div class="Events">
           <h1>Events</h1>
             <p>Some motivational text line</p>
@@ -28,14 +33,14 @@
         </div>
 
         <div class="Current">
-          <img src="Images/Backgrounds/BG-img-04.png" alt="CurrentProject">
+          <img src="Images/Backgrounds/BG-img-04.png" alt="people organizing some video cameras while getting ready for a project">
           <h2>Current Projects</h2>
             <p>Our current Hyperlynx project involves using Adobe animation and After effects to create a story about reincarnation.</p>
         </div>
 <!--The read more link is on desktop and tablet but not on mobile-->
     <h2>Past projects</h2>
         <div class="Past">
-          <div class="PastEvent">
+          <div class="past-event">
             <div class="textleft">
             <!--Past project 1-->
                   <h3>Emporium</h3>
@@ -78,27 +83,38 @@
         </div>
           <div class="Future">
             <h2>Future Projects</h2>
-              <p>Some future prokect</p>
+              <p>Some future projects</p>
+              <p>Some future projects</p>
             <h3>Have an idea?</h3>
-              <p>Do you have an idea that we could use in a future project? Or maybe something you would like to learn about at Hyperlynx?</p>
               <p>Tell us</p> <!--This button is for mobile version-->
-              <p>Name:</p>
-              <p>Email</p>
-              <p>Space for text</p>
-              <p>Submit button</p>
+              <form action="">
+              	<fieldset>
+              		<p>
+              			<label for="name">Name:</label>
+              			<input type="text" id="name" name="name" />
+              		</p>
+              		<p>
+              			<label for="address">Email:</label>
+              			<input type="text" id="address" name="address" />
+              		</p>
+                  <p>Space for text</p>
+                </fieldset>
+                <p><input type="submit" value="Submit" class="submit" /></p>
+              </form>
           </div>
+      </main>
+      <footer>
+        <a href="https://www.facebook.com/lubhyperlynx/">
+          <img class="social-media-icons" src="images/logos/facebook-icon.png" alt="Link to Hyperlynx Facebook">
+        </a>
+        <a href="https://www.instagram.com/hyperlynxlub/">
+          <img class="social-media-icons" src="images/logos/instagram-icon.png" alt="Link to Hyperlynx Instagram">
+        </a>
+        <a href="https://twitter.com/hyperlynxlub">
+          <img class="social-media-icons" src="images/logos/twitter-icon.png" alt="Link to Hyperlynx Twitter">
+        </a>
+        <p>Copyright 2018 Hyperlynx. All rights reserved.</p>
+      </footer>
   </body>
-  <footer>
-    <a href="https://www.facebook.com/lubhyperlynx/">
-      <img class="social-media-icons" src="images/logos/facebook-icon.png" alt="Link to Hyperlynx Facebook">
-    </a>
-    <a href="https://www.instagram.com/hyperlynxlub/">
-      <img class="social-media-icons" src="images/logos/instagram-icon.png" alt="Link to Hyperlynx Instagram">
-    </a>
-    <a href="https://twitter.com/hyperlynxlub">
-      <img class="social-media-icons" src="images/logos/twitter-icon.png" alt="Link to Hyperlynx Twitter">
-    </a>
-    <p>Copyright 2018 Hyperlynx. All rights reserved.</p>
-  </footer>
 </body>
 </html>

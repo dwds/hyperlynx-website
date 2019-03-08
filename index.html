@@ -7,6 +7,10 @@
   <meta name="description=" content="Hyperlynx is an interactive media and web design club based in Belleville Illinois.">
 </head>
 <body>
+  <!--Skip to Content button-->
+  <div id="skip">
+    <a href="maincontent">Skip to Content</a>
+  </div>
   <div class="mobile-head">
     <img id="home" src="images/backgrounds/bg-img-0.png" alt="">
     <img id="lynx" src="images/logos/lynx.png" alt="Hyperlynx" width="100" height="200">
@@ -52,8 +56,7 @@
   <div class="event-two">
     <div class="text-left">
       <p>Tagline</p>
-      <!--This is the navigation bar-->
-        <nav>
+        <nav role="navigation">
         <ul>
           <li><a href="Index.html">Home</a></li>
           <li><a href="About.html">About</a></li>
@@ -63,6 +66,7 @@
         </ul>
         </nav>
       </div>
+    <div class="maincontent">
     <!--This is the dark grey section with information in-->
     <div class="informationsection">
       <p>We aim to educate the Lindenwood community on the latest technology trends and skills</p>
@@ -76,10 +80,10 @@
         <div class="textleft">
         <h3>Events</h3>
         <p class="description">Currently we are working on a project involving VR and animation.</p>
-        <p class="join">Join us</p>
+        <button role="link">Join us</button>
       </div>
       <div class="image">
-        <img src="images/Backgrounds/img-01.png" alt="EventOne" width="200" height="200">
+        <img src="images/Backgrounds/img-01.png" alt="student interacting with a google cardboard" width="200" height="200">
       </div>
       </div>
       <!--This is the second event, the blue one-->
@@ -87,11 +91,11 @@
       <div class="textleft">
       <h3>Events</h3>
       <p class="description">Our most recent events included glitching images, animation, twine jam, digital symmetry art, and a portfolio workshop.</p>
-      <p>Join us</p>
+      <button role="link">Join us</button>
     </div>
 
     <div class="image">
-      <img src="images/backgrounds/img-02.png" alt="EventTwo" height="200" width="200">
+      <img src="images/backgrounds/img-02.png" alt="student looking to a website containing a picture of an alien" height="200" width="200">
     </div>
   </div>
 
